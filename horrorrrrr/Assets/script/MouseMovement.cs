@@ -5,9 +5,14 @@ using UnityEngine;
 
 public class MouseMovement : MonoBehaviour
 {
-    public float mouseSensitivity = 100f;   // tweak this
-    public float smoothTime = 0.03f;        // smaller = tighter, larger = smoother/slower
-    public bool debugInput = true;          // enable to log input each frame
+    [Header("Input / Sensitivity")]
+    public float mouseSensitivity = 100f;   // tweak this (used with newInputScale)
+    public float newInputScale = 0.01f;     // multipler for Mouse.current.delta (adjust to reduce speed)
+    public bool debugInput = false;         // set false in normal play
+
+    [Header("Smoothing (exponential)")]
+    [Tooltip("Higher = faster response, lower = smoother/slower")]
+    public float smoothSpeed = 12f;         // recommended: 8 - 16
 
     float xRotation = 0f;
     float yRotation = 0f;
@@ -16,9 +21,8 @@ public class MouseMovement : MonoBehaviour
     public float topClamp = 90f;
     public float bottomClamp = -90f;
 
-    // smoothing helpers
-    float xVel = 0f;
-    float yVel = 0f;
+    // smoothing state
+    Vector2 smoothedDelta = Vector2.zero;
 
     void Awake()
     {
@@ -28,61 +32,49 @@ public class MouseMovement : MonoBehaviour
 
     void LateUpdate()
     {
-        // read input
-        float mouseX = 0f;
-        float mouseY = 0f;
-
-        // Old Input Manager fallback (always available)
-        float oldX = Input.GetAxis("Mouse X");
-        float oldY = Input.GetAxis("Mouse Y");
+        // Read raw mouse delta in a consistent unit
+        Vector2 rawDelta = Vector2.zero;
 
 #if ENABLE_INPUT_SYSTEM
-        bool hasNewMouse = Mouse.current != null;
-        Vector2 newDelta = hasNewMouse ? Mouse.current.delta.ReadValue() : Vector2.zero;
-        if (hasNewMouse)
+        if (Mouse.current != null)
         {
-            // scale raw pixel delta with sensitivity (do not multiply by Time.deltaTime)
-            mouseX = newDelta.x * (mouseSensitivity * 0.01f);
-            mouseY = newDelta.y * (mouseSensitivity * 0.01f);
+            // Mouse.current.delta is pixels since last frame (do NOT multiply by Time.deltaTime)
+            Vector2 newDelta = Mouse.current.delta.ReadValue();
+            rawDelta.x = newDelta.x * (mouseSensitivity * newInputScale);
+            rawDelta.y = newDelta.y * (mouseSensitivity * newInputScale);
         }
         else
 #endif
         {
-            // old Input Manager: GetAxis is frame-rate independent already in typical setups
-            mouseX = oldX * mouseSensitivity * Time.deltaTime;
-            mouseY = oldY * mouseSensitivity * Time.deltaTime;
+            // Old Input Manager: GetAxis returns a delta-like value, multiply by Time.deltaTime for consistency
+            float oldX = Input.GetAxis("Mouse X");
+            float oldY = Input.GetAxis("Mouse Y");
+            rawDelta.x = oldX * mouseSensitivity * Time.deltaTime;
+            rawDelta.y = oldY * mouseSensitivity * Time.deltaTime;
         }
+
+        // Exponential smoothing (frame-rate independent)
+        float lerpFactor = 1f - Mathf.Exp(-smoothSpeed * Time.deltaTime);
+        smoothedDelta = Vector2.Lerp(smoothedDelta, rawDelta, lerpFactor);
 
         if (debugInput)
-        {
-#if ENABLE_INPUT_SYSTEM
-            Debug.Log($"MouseMovement DEBUG: oldAxis=({oldX:F3},{oldY:F3}) newDelta=({(Mouse.current!=null?newDelta.x:0f):F3},{(Mouse.current!=null?newDelta.y:0f):F3}) effective=({mouseX:F3},{mouseY:F3})");
-#else
-            Debug.Log($"MouseMovement DEBUG: oldAxis=({oldX:F3},{oldY:F3}) effective=({mouseX:F3},{mouseY:F3})");
-#endif
-        }
+            Debug.Log($"MouseMovement DEBUG raw=({rawDelta.x:F3},{rawDelta.y:F3}) smoothed=({smoothedDelta.x:F3},{smoothedDelta.y:F3})");
 
-        // target rotations
-        float targetX = xRotation - mouseY;
-        float targetY = yRotation + mouseX;
+        // Apply rotation
+        xRotation -= smoothedDelta.y;
+        yRotation += smoothedDelta.x;
 
-        // smooth the rotations
-        xRotation = Mathf.SmoothDamp(xRotation, targetX, ref xVel, smoothTime);
-        yRotation = Mathf.SmoothDamp(yRotation, targetY, ref yVel, smoothTime);
-
-        // clamp and apply
         xRotation = Mathf.Clamp(xRotation, bottomClamp, topClamp);
         transform.localRotation = Quaternion.Euler(xRotation, yRotation, 0f);
     }
 
-    // helper to unlock cursor from inspector or other scripts
+    // helpers
     public void UnlockCursor()
     {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
 
-    // helper to lock cursor from inspector or other scripts
     public void LockCursor()
     {
         Cursor.lockState = CursorLockMode.Locked;
