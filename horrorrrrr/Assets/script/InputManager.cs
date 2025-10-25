@@ -1,68 +1,70 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class InputManager : MonoBehaviour
+namespace HorrorGame
 {
-    private PlayerInput playerInput;               // generated wrapper
-    private InputActionMap defaultMap;             // the map we keep enabled
-    private PlayerInput.OnFootActions onFoot;
-    private PlayerMovement playerMovement;
-
-    [Header("Input")]
-    public string defaultActionMapName = "OnFoot"; // name of the map to enable at runtime
-
-    void Awake()
+    [RequireComponent(typeof(PlayerMovement))]
+    public class InputManager : MonoBehaviour
     {
-        // instantiate generated wrapper
-        playerInput = new PlayerInput();
+        [Header("Action Map / Action Names")]
+        public string defaultActionMapName = "OnFoot";   // action map to enable
+        public string movementActionName = "Movement";   // action name that returns Vector2
 
-        // disable all action maps in the asset
-        if (playerInput?.asset != null)
+        [Header("References")]
+        public PlayerMovement playerMovement;           // assign in inspector or auto-find
+
+        UnityEngine.InputSystem.PlayerInput piComponent;
+        InputAction movementAction;
+        InputActionMap enabledMap;
+
+        void Awake()
         {
-            foreach (var map in playerInput.asset.actionMaps)
+            if (playerMovement == null)
+                playerMovement = GetComponent<PlayerMovement>();
+
+            piComponent = GetComponent<UnityEngine.InputSystem.PlayerInput>();
+
+            if (piComponent == null)
+            {
+                Debug.LogWarning("InputManager: No PlayerInput component found. Ensure either add PlayerInput or use PlayerMovement.useOldInputFallback = true.");
+                return;
+            }
+
+            var actions = piComponent.actions;
+            if (actions == null)
+            {
+                Debug.LogError("InputManager: PlayerInput.actions is null. Check your Input Actions asset.");
+                return;
+            }
+
+            foreach (var map in actions.actionMaps)
                 map.Disable();
 
-            // find and enable only the default map
-            defaultMap = playerInput.asset.FindActionMap(defaultActionMapName);
-            if (defaultMap != null)
-                defaultMap.Enable();
-            else
+            enabledMap = actions.FindActionMap(defaultActionMapName, true);
+            if (enabledMap == null)
+            {
                 Debug.LogWarning($"InputManager: Action map '{defaultActionMapName}' not found in asset.");
+                return;
+            }
+
+            enabledMap.Enable();
+            movementAction = enabledMap.FindAction(movementActionName, true);
+            if (movementAction == null)
+                Debug.LogWarning($"InputManager: Movement action '{movementActionName}' not found in map '{defaultActionMapName}'.");
         }
 
-        onFoot = playerInput.OnFoot;
-        playerMovement = GetComponent<PlayerMovement>();
-
-        if (playerMovement == null)
-            Debug.LogWarning("InputManager: No PlayerMovement found on the same GameObject.");
-    }
-
-    void FixedUpdate()
-    {
-        if (playerMovement != null && defaultMap != null)
-            playerMovement.ProcessMove(onFoot.Movement.ReadValue<Vector2>());
-    }
-
-    private void OnEnable()
-    {
-        // enable only the default map when this GameObject enables
-        defaultMap?.Enable();
-    }
-
-    private void OnDisable()
-    {
-        // disable only the default map when this GameObject disables
-        defaultMap?.Disable();
-    }
-
-    // Optional: if you use a PlayerInput component on the same object and want to force control scheme:
-    public void ForceKeyboardMouseControlScheme()
-    {
-        var pi = GetComponent<UnityEngine.InputSystem.PlayerInput>();
-        if (pi != null && Keyboard.current != null && Mouse.current != null)
+        void FixedUpdate()
         {
-            // SwitchCurrentControlScheme exists on PlayerInput component
-            pi.SwitchCurrentControlScheme("Keyboard&Mouse", Keyboard.current, Mouse.current);
+            if (playerMovement == null) return;
+
+            if (movementAction != null && movementAction.enabled)
+            {
+                Vector2 v = movementAction.ReadValue<Vector2>();
+                playerMovement.ProcessMove(v);
+            }
         }
+
+        void OnEnable() => enabledMap?.Enable();
+        void OnDisable() => enabledMap?.Disable();
     }
 }

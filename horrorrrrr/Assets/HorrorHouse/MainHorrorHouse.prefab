@@ -1,0 +1,1156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3311678910225737968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5785132204890408555}
+  m_Layer: 0
+  m_Name: Decals
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5785132204890408555
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3311678910225737968}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 9142966700410329604}
+  - {fileID: 2015897205824798159}
+  - {fileID: 4573194334255194279}
+  - {fileID: 1813637444535577913}
+  - {fileID: 4482534274507689190}
+  - {fileID: 4461515694706501616}
+  - {fileID: 7061723524465145672}
+  - {fileID: 4901050622619925367}
+  - {fileID: 4643908397202644759}
+  - {fileID: 9209860551414725726}
+  - {fileID: 6746543195896912253}
+  - {fileID: 1608774799082401484}
+  m_Father: {fileID: 6721609913420061240}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3537036312293242700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6721609913420061240}
+  m_Layer: 0
+  m_Name: MainHorrorHouse
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6721609913420061240
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3537036312293242700}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 532.7755, y: 36.594753, z: 552.9624}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3294984723017448884}
+  - {fileID: 7802273308171735174}
+  - {fileID: 1832384539751693232}
+  - {fileID: 3573197033258802274}
+  - {fileID: 8854424567839193055}
+  - {fileID: 5785132204890408555}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1286126627634628903
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5785132204890408555}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5259857
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.058998108
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.3079834
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.74346936
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6687701
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 83.944
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_Name
+      value: The Shed Decals (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+--- !u!4 &1608774799082401484 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+  m_PrefabInstance: {fileID: 1286126627634628903}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2050086359055391268
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5785132204890408555}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.6430054
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.033000946
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5189972
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70996976
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7042322
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 89.535
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_Name
+      value: The Shed Decals (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+--- !u!4 &2015897205824798159 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+  m_PrefabInstance: {fileID: 2050086359055391268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2207305708844518098
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5785132204890408555}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0780029
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.041999817
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.2590027
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.80484354
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5934871
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -72.81
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_Name
+      value: The Shed Decals (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+--- !u!4 &1813637444535577913 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+  m_PrefabInstance: {fileID: 2207305708844518098}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2226829332069506139
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6721609913420061240}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 0e3dfd8969984864db1cb4157e9fd8ca, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0e3dfd8969984864db1cb4157e9fd8ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0e3dfd8969984864db1cb4157e9fd8ca, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0e3dfd8969984864db1cb4157e9fd8ca, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0e3dfd8969984864db1cb4157e9fd8ca, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0e3dfd8969984864db1cb4157e9fd8ca, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0e3dfd8969984864db1cb4157e9fd8ca, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0e3dfd8969984864db1cb4157e9fd8ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0e3dfd8969984864db1cb4157e9fd8ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0e3dfd8969984864db1cb4157e9fd8ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0e3dfd8969984864db1cb4157e9fd8ca, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9d90adcb0b3759c4396bb3d99485816e, type: 2}
+    - target: {fileID: 919132149155446097, guid: 0e3dfd8969984864db1cb4157e9fd8ca, type: 3}
+      propertyPath: m_Name
+      value: The Shed Tools
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0e3dfd8969984864db1cb4157e9fd8ca, type: 3}
+--- !u!4 &1832384539751693232 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0e3dfd8969984864db1cb4157e9fd8ca, type: 3}
+  m_PrefabInstance: {fileID: 2226829332069506139}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3040099453864663647
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6721609913420061240}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 643795b71b4572a48917cb40d9cc0173, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 643795b71b4572a48917cb40d9cc0173, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 643795b71b4572a48917cb40d9cc0173, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 643795b71b4572a48917cb40d9cc0173, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 643795b71b4572a48917cb40d9cc0173, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 643795b71b4572a48917cb40d9cc0173, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 643795b71b4572a48917cb40d9cc0173, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 643795b71b4572a48917cb40d9cc0173, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 643795b71b4572a48917cb40d9cc0173, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 643795b71b4572a48917cb40d9cc0173, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 643795b71b4572a48917cb40d9cc0173, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9d90adcb0b3759c4396bb3d99485816e, type: 2}
+    - target: {fileID: 919132149155446097, guid: 643795b71b4572a48917cb40d9cc0173, type: 3}
+      propertyPath: m_Name
+      value: The Shed
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 643795b71b4572a48917cb40d9cc0173, type: 3}
+--- !u!4 &3294984723017448884 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 643795b71b4572a48917cb40d9cc0173, type: 3}
+  m_PrefabInstance: {fileID: 3040099453864663647}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3899047144751086473
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6721609913420061240}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 637011e8ff68ba743afe00531fc581bd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 637011e8ff68ba743afe00531fc581bd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 637011e8ff68ba743afe00531fc581bd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 637011e8ff68ba743afe00531fc581bd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 637011e8ff68ba743afe00531fc581bd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 637011e8ff68ba743afe00531fc581bd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 637011e8ff68ba743afe00531fc581bd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 637011e8ff68ba743afe00531fc581bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 637011e8ff68ba743afe00531fc581bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 637011e8ff68ba743afe00531fc581bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 637011e8ff68ba743afe00531fc581bd, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9d90adcb0b3759c4396bb3d99485816e, type: 2}
+    - target: {fileID: 919132149155446097, guid: 637011e8ff68ba743afe00531fc581bd, type: 3}
+      propertyPath: m_Name
+      value: The Shed Objects
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 637011e8ff68ba743afe00531fc581bd, type: 3}
+--- !u!4 &3573197033258802274 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 637011e8ff68ba743afe00531fc581bd, type: 3}
+  m_PrefabInstance: {fileID: 3899047144751086473}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4106712733731342156
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5785132204890408555}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.31100464
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.048999786
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.2899933
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.051543742
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9986708
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 174.091
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_Name
+      value: The Shed Decals (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+--- !u!4 &4573194334255194279 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+  m_PrefabInstance: {fileID: 4106712733731342156}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4161203259005348621
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5785132204890408555}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.8820038
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.041999817
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.6609955
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98936725
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.14543875
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 16.725
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_Name
+      value: The Shed Decals (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+--- !u!4 &4482534274507689190 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+  m_PrefabInstance: {fileID: 4161203259005348621}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4206579341346390043
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5785132204890408555}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.072006226
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.057998657
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.4319916
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.634183
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.773183
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 101.281
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_Name
+      value: The Shed Decals (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+--- !u!4 &4461515694706501616 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+  m_PrefabInstance: {fileID: 4206579341346390043}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4868038178621807772
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5785132204890408555}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.3690033
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.041999817
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.5879974
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.23525266
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.97193426
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -207.213
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_Name
+      value: The Shed Decals (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+--- !u!4 &4901050622619925367 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+  m_PrefabInstance: {fileID: 4868038178621807772}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5186109823670483196
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5785132204890408555}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.4149933
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.057998657
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.3589935
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.47978544
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.87738585
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -122.657
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_Name
+      value: The Shed Decals (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+--- !u!4 &4643908397202644759 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+  m_PrefabInstance: {fileID: 5186109823670483196}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6497058428504964758
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5785132204890408555}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.4799957
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.042999268
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.5369873
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99998575
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0053355303
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.611
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_Name
+      value: The Shed Decals (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+--- !u!4 &6746543195896912253 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+  m_PrefabInstance: {fileID: 6497058428504964758}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7316925926342578339
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5785132204890408555}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.5650024
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.041999817
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.1860046
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.85148966
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.52437145
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -296.748
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_Name
+      value: The Shed Decals (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+--- !u!4 &7061723524465145672 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+  m_PrefabInstance: {fileID: 7316925926342578339}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7768013646343173997
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6721609913420061240}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a655e0f7e2374cc4b943524cf9cadc1b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.459
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a655e0f7e2374cc4b943524cf9cadc1b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a655e0f7e2374cc4b943524cf9cadc1b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.103
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a655e0f7e2374cc4b943524cf9cadc1b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710695
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a655e0f7e2374cc4b943524cf9cadc1b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a655e0f7e2374cc4b943524cf9cadc1b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a655e0f7e2374cc4b943524cf9cadc1b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a655e0f7e2374cc4b943524cf9cadc1b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a655e0f7e2374cc4b943524cf9cadc1b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a655e0f7e2374cc4b943524cf9cadc1b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a655e0f7e2374cc4b943524cf9cadc1b, type: 3}
+      propertyPath: m_Name
+      value: The Shed Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 5736255245391798574, guid: a655e0f7e2374cc4b943524cf9cadc1b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9d90adcb0b3759c4396bb3d99485816e, type: 2}
+    - target: {fileID: 5866666021909216657, guid: a655e0f7e2374cc4b943524cf9cadc1b, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 9d4305efa2c58574996cdc2c3cc612ab, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a655e0f7e2374cc4b943524cf9cadc1b, type: 3}
+--- !u!4 &7802273308171735174 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a655e0f7e2374cc4b943524cf9cadc1b, type: 3}
+  m_PrefabInstance: {fileID: 7768013646343173997}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8666410149843852213
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5785132204890408555}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.6759949
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.042999268
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.1349945
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70620227
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70801026
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90.147
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_Name
+      value: The Shed Decals (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+--- !u!4 &9209860551414725726 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+  m_PrefabInstance: {fileID: 8666410149843852213}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8748504753389157871
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5785132204890408555}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.8390045
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.033000946
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.8829956
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+      propertyPath: m_Name
+      value: The Shed Decals
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+--- !u!4 &9142966700410329604 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f563285a8f5aa6e4aa637605ccd3b23a, type: 3}
+  m_PrefabInstance: {fileID: 8748504753389157871}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9037463613718564916
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6721609913420061240}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: aa5dbce710b73d646abd179e3029ebc6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.065
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aa5dbce710b73d646abd179e3029ebc6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aa5dbce710b73d646abd179e3029ebc6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.513
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aa5dbce710b73d646abd179e3029ebc6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aa5dbce710b73d646abd179e3029ebc6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aa5dbce710b73d646abd179e3029ebc6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aa5dbce710b73d646abd179e3029ebc6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aa5dbce710b73d646abd179e3029ebc6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aa5dbce710b73d646abd179e3029ebc6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aa5dbce710b73d646abd179e3029ebc6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa5dbce710b73d646abd179e3029ebc6, type: 3}
+      propertyPath: m_Name
+      value: The Shed Ivy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa5dbce710b73d646abd179e3029ebc6, type: 3}
+--- !u!4 &8854424567839193055 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: aa5dbce710b73d646abd179e3029ebc6, type: 3}
+  m_PrefabInstance: {fileID: 9037463613718564916}
+  m_PrefabAsset: {fileID: 0}
